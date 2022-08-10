@@ -1,8 +1,4 @@
-<script>
-  import Title from "$lib/title.svelte"
-</script>
 
-<Title title="Ninja Gaming Reviews" />
 <div class="about">
   <h2>About Us</h2>
   <p>Lorem ipsum dolor sit amet, afdsafsda fsdfdsafsa, adsf afa dfadsfasfas, adf adsf dsf af. dsafdsafsad fasdfasd fasdfas, asdfsaf.

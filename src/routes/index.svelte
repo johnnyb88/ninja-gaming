@@ -1,8 +1,4 @@
-<script>
-  import Title from '$lib/title.svelte';
-</script>
 
-<Title />
 <div class="index">
   <h2>Welcome</h2>
   <p>Lorem ipsum dolor sit amet, afdsafsda fsdfdsafsa, adsf afa dfadsfasfas, adf adsf dsf af. dsafdsafsad fasdfasd fasdfas, asdfsaf.
