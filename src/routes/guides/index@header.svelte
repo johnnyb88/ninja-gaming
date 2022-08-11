@@ -2,6 +2,7 @@
   export async function load({ fetch }) {
     const res = await fetch('https://jsonplaceholder.typicode.com/posts')
     const guides = await res.json();
+    
 
     if (res.ok) {
       return {
@@ -19,16 +20,13 @@
 </script>
 
 <script>
-import { each } from "svelte/internal";
-
-
   export let guides
 </script>
 
 <div class="guides">
   <ul>
     {#each guides as guide}
-    <li><a href="/">{guide.title}</a></li>
+    <li><a href={`/guides/${guide.id}`}>{guide.title}</a></li>
     {/each}
   </ul>
 </div>
